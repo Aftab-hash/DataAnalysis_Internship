@@ -1,10 +1,9 @@
 # -> Task 1: Data Cleaning and Preprocessing Summary.
 <br>
-# -> Objective: Clean and prepare the raw Medical_Appointment_No_Shows.csv dataset for analysis.
+-> Objective: Clean and prepare the raw Medical_Appointment_No_Shows.csv dataset for analysis.
 <br>
-# -> Summary of Changes and Fixes Made:<br>
-# -> Step	Action	Description
-
+-> Summary of Changes and Fixes Made:<br>
+-> Step	Action	Description
 1.	Loaded dataset	Loaded the raw dataset using pandas.read_csv() for efficient handling.
 <br>
 2.	Inspected structure	Checked initial shape, column names, and data types using .shape, .columns, and .info() to understand the dataset.
@@ -26,7 +25,7 @@ Also formatted to human-readable dd-mm-yyyy HH:MM:SS+00:00 using .apply() with s
 <br> 
 10.	Exported cleaned data	Saved the cleaned dataset as Cleaned_Medical_Appointment_No_Shows.csv using df.to_csv(..., index=False) for downstream analysis or modeling.
 <br>
-# -> Additional Notes:<br>
--> Timezone-aware formatting (with +00:00) ensures compatibility for time-based analysis.
--> errors='coerce' was essential to gracefully handle bad or malformed data instead of raising errors.
+-> Additional Notes:<br>
+-> Timezone-aware formatting (with +00:00) ensures compatibility for time-based analysis.<br>
+-> errors='coerce' was essential to gracefully handle bad or malformed data instead of raising errors.<br>
 -> All preprocessing steps followed good data hygiene practices for machine learning or statistical workflows.
